@@ -1,0 +1,58 @@
+﻿/*@charset "utf-8";
+/* CSS Document */
+
+
+	.ltable td .sort{ display:inline-block; padding:0 3px; border:1px solid #eee; width:40px; height:20px; line-height:18px; color:#666; font-size:12px; background:#fff; vertical-align:middle; }
+	.ltable td .btn-tools{ display:inline-block; height:22px;  vertical-align:middle; }
+		.ltable td .btn-tools a{ display:block; float:left; margin:0; padding:0; width:20px; height:20px; border:1px solid #eee; border-left:none; text-indent:-99999px; background:url(skin_icons.png) no-repeat #fff; overflow:hidden; }
+		.ltable td .btn-tools a:first-child{ border-left:1px solid #eee; }
+		.ltable td .btn-tools a.msg{ background-position:3px -53px; }
+		.ltable td .btn-tools a.msg.selected{ background-position:3px -81px; }
+		.ltable td .btn-tools a.top{ background-position:-25px -53px; }
+		.ltable td .btn-tools a.top.selected{ background-position:-25px -81px; }
+		.ltable td .btn-tools a.red{ background-position:-53px -53px; }
+		.ltable td .btn-tools a.red.selected{ background-position:-53px -81px; }
+		.ltable td .btn-tools a.hot{ background-position:-81px -53px; }
+		.ltable td .btn-tools a.hot.selected{ background-position:-81px -81px; }
+		.ltable td .btn-tools a.pic{ background-position:-109px -53px; }
+		.ltable td .btn-tools a.pic.selected{ background-position:-109px -81px; }
+		.ltable td .folder-open{ display:inline-block; margin-right:2px; width:20px; height:20px; background:url(skin_icons.png) -160px -250px no-repeat; vertical-align:middle; text-indent:-999em; *text-indent:0; }
+		.ltable td .folder-line{display:inline-block; margin-right:2px; width:20px; height:20px; background:url(skin_icons.png) -200px -250px no-repeat; vertical-align:middle; text-indent:-999em; *text-indent:0; }
+		.ltable td .txt-box{ display:inline-block; margin:0 2px 0 auto; padding:0 5px; border:1px solid #eee; line-height:20px; background:#fff; }
+		.ltable td .img-box{ display:inline-block; margin:0 2px 0 auto; padding:0; height:32px; vertical-align: middle; }
+		.ltable td .img-box img{ padding:1px; width:30px; height:30px; border:1px solid #eee; }
+	.ltable tr:hover{ background:#f7f7f7; }
+	.ltable .odd_bg{ background:#fafafa; }
+	.ltable td .user-avatar{ display:block; width:64px; height:64px; background:url(skin_icons.png) 3px -398px no-repeat #fff;}
+	.ltable td .user-box{ padding-left:10px; }
+		.ltable td .user-box h4{ margin:0; padding:0; display:block; font-weight:normal; font-size:12px; height:16px; line-height:14px;}
+		.ltable td .user-box h4 b{ color:#06F;}
+		.ltable td .user-box i{ display:block; color:#999; font-style:normal; line-height:24px; height:24px; }
+		.ltable td .user-box span{ display:block; padding:2px 0 0 0; height:14px; }
+		.ltable td .user-box span a{ display:block; float:left; margin-right:5px; width:20px; height:20px; background:url(skin_icons.png) no-repeat #fff; border:1px solid #E1E1E1; text-indent:-999em;}
+		.ltable td .user-box span a.amount{ background-position:-109px -109px;}
+		.ltable td .user-box span a.card{ background-position:-249px -109px;}
+		.ltable td .user-box span a.point{ background-position:3px -109px; }
+		.ltable td .user-box span a.msg{ background-position:-81px -109px;}
+		.ltable td .user-box span a.sms{ background-position:-221px -110px;}
+		
+	.ltable td.comment{ padding:10px; line-height:1em; }
+		.ltable td.comment .title{ margin-bottom:5px; line-height:180%; font-weight:bold; }
+		.ltable td.comment .title .note{ float:right; font-weight:normal; }
+		.ltable td.comment .title .note i{ margin-left:10px; font-style:normal; font-family:'Microsoft YaHei'; color:#999; }
+		.ltable td.comment .title .note i.reply{ padding-left:18px; }
+		.ltable td.comment .ask{ line-height:180%; font-family:'Microsoft YaHei'; }
+		.ltable td.comment .ask .audit{ margin-right:3px; display:inline-block; vertical-align:middle; width:14px; height:14px; background:url(skin_icons.png) -362px -112px  no-repeat; }
+		.ltable td.comment .ask .answer{ margin-top:10px; padding:6px 10px; border:1px solid #f6e8b9; background:#fbf8e7; color:#666; }
+		.ltable td.comment .ask .answer b{ color:#090; }
+		.ltable td.comment .ask .answer .time{ display:block; float:right; color:#999; }
+
+/*分页样式*/
+.pagelist{ clear:both; display:block; margin:0 0 20px 1px; }
+	.pagelist:after{ clear:both; content:"."; display:block; height:0; visibility:hidden; }
+	.pagelist .l-btns{ display:block; float:left; margin:2px 5px 0 -1px; padding:0 10px; border:1px solid #dbdbdb; height:28px; overflow:hidden; }
+	.pagelist .l-btns span{ font-size:12px; color:#333; line-height:28px; }
+	.pagelist .l-btns .pagenum{ display:inline-block; margin:0 5px; padding:0 5px; border:1px solid #dbdbdb; border-top:0; border-bottom:0; width:30px; height:28px; line-height:28px; font-size:12px; color:#333; text-align:center; vertical-align:top; overflow:hidden; }
+
+.itemIco.havIco{cursor:pointer; display:inline-block;vertical-align:middle; width:18px;height:18px;background:url(../default/ico.png) 0px 0px; }
+.itemIco.open{background:url(../default/ico.png) -29px 0px;}*/

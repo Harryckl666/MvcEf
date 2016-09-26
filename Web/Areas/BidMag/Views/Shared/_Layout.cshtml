@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <link href="~/Areas/BidMag/Content/css/base.css" rel="stylesheet" />
+    <link href="~/Areas/BidMag/Content/css/main.css" rel="stylesheet" />
+    @RenderSection("head", required: false)
+</head>
+<body>
+    @RenderBody()
+    @RenderSection("scripts", required: false)
+
+    <script src="~/Content/plugins/lhgdialog/lhgdialog.js?self=true&skin=iblue"></script>
+    <script src="~/Content/plugins/Validform/Validform_v5.3.2_min.js"></script>
+    <script src="~/Content/plugins/Validform/layout.js"></script>
+    <script src="~/Content/js/layout.js"></script>
+</body>
+</html>

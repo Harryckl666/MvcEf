@@ -1,0 +1,113 @@
+@charset "utf-8";
+.centerBox{ padding: 10px 0; }
+.centTop .centNav li{ display: block; float: left;padding-right: 2px;padding-top: 5px; font-family: "Microsoft YaHei"}
+.centTop .centNav li a{background-color: #5c6874; border:1px solid #5c6874; border-bottom: 0 none; padding:4px 15px;   color: #fff; font-size: 14px; font-weight: bold; border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.centTop .centNav li a:hover{background-color: #fff;border:1px solid #ddd; color: #21272d;border-bottom: 0 none;}
+.centTop .centNav li.on a{background-color: #fff;border:1px solid #ddd; color: #21272d;border-bottom: 0 none;}
+.centTop .centSeach{ width: 322px;}
+.centTop .centSeach .seachText{display: block; float: left;padding: 5px; height: 18px; width: 230px; border:1px solid #9D9FA1; border-right: 0 none;}
+.centTop .centSeach .seachBtn{cursor: pointer; display: block; float: left; border:0 none; width:80px; height:30px; background: url(../images/slice/seachBtn.png) no-repeat;}
+.centerCom{overflow: hidden;  border:1px solid #ddd; clear: both;background-color: #fff;}
+.centerCom .centBtn{ padding: 10px 10px; clear: both;overflow: hidden;}
+.centerCom .centBtn .btn{margin-left: 5px;}
+.centerCom table{ border-left: 0 none; border-right: 0 none;}
+.centerCom table td .bar{ width: 12px; height: 5px;}
+.centerCom table td a{color: #04c;}
+.centerCom table td .btn{color: #000;}
+.centerCom table td a:hover{color: #002a80;}
+.tagCom{display: none;}
+.tagCom.on{display: block;}
+
+/*项目管理 S*/
+.projectCom .table{ border:0 none;}
+.projectCom .table td,.projectCom .table th{padding: 0 8px;height: 30px; border-bottom: 1px solid #C8D2DC;}
+.projectCom .table tr th{border: 1px solid #C8D2DC;color: #666; border-radius: 5px;}
+.projectCom .table td{ padding-right: 12px;}
+.projectCom .table td .prjInput{ border:1px solid #C8D2DC; border-radius: 5px; width: 100%; overflow: hidden;}
+.projectCom .table td .prjTxt{ display: block; float: left; min-height: 30px; width: 90%; cursor: pointer;}
+.projectCom .table .iEr{ margin-top: 5px; cursor: pointer; display: block; float: right;width: 22px; height: 19px; background: url(../images/slice/iEr.png) no-repeat;}
+.projectCom .table td select.prjInput{ height: 30px;}
+.projectCom .table td .pType{ width: 100%; clear: both;}
+.projectCom .table td .pType .pSp{ width: 150px;}
+.projectCom .table td .pType .pSpV{width: 250px;}
+.projectCom .table td .pType .pSp .pSTit,.pSText .pSTit{ width: 60px;}
+.projectCom .table td .pType .pSp .prjTxt{ width: 90px;}
+.projectCom .table td .pType .pSpV .prjTxt{ width: 190px;}
+.projectCom .table td .pType .pSp .prjInput{ width: 80px;}
+.projectCom .table td .pSText{ width: 100%; border-top:1px solid #C8D2DC;}
+.projectCom .table td .pSText .prjTxt{ width: 80%;}
+.projectCom .table td .pSText .prjInput{ width: 80%;}
+.projectCom .cTab tr th{border-right: 0 none; border-left: 1px solid #fff;}
+.projectCom .cTab tr th,.projectCom .cTab tr td{border-radius: 0; padding:8px;}
+.projectCom .bdNav{font-family: "Microsoft YaHei"; clear: both; margin:10px 5px; height: 20px; border-bottom: 1px solid #ddd;}
+.projectCom .bdNav a{color: #000; border:1px solid #ddd; border-bottom: 0 none; padding: 5px 15px; border-top-left-radius: 5px;border-top-right-radius: 5px;margin-right: 5px;}
+.projectCom .bdNav a:hover{color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top,#08c,#04c);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));
+background-image: -webkit-linear-gradient(top,#08c,#04c);
+background-image: -o-linear-gradient(top,#08c,#04c);
+background-image: linear-gradient(to bottom,#08c,#04c);
+background-repeat: repeat-x;
+border-color: #04c #04c #002a80;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.projectCom .bdNav a.on{color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top,#08c,#04c);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));
+background-image: -webkit-linear-gradient(top,#08c,#04c);
+background-image: -o-linear-gradient(top,#08c,#04c);
+background-image: linear-gradient(to bottom,#08c,#04c);
+background-repeat: repeat-x;
+border-color: #04c #04c #002a80;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.projectCom .prjRight{font-family: "Microsoft YaHei";background-color: #D8E2EC; min-height: 300px; width: 250px; border:1px solid #999; border-right:0 none;}
+.projectCom .prjRight .pRNav{padding-left: 10px;padding-top: 15px;color: #116bc7; font-size:15px; }
+.projectCom .prjRight .pRNav i{ display: block; float: left; padding-right: 10px;}
+.projectCom .prjRight .pRTit{margin:10px 10px;padding-top: 5px; border-top:1px dashed #999; }
+.projectCom .prjRight .pRTit span{display:block;text-align: left; float: left;color: #52616f; font-size:15px;}
+.projectCom .prjRight .pRTit a{color: #116bc7;padding-left: 5px;}
+.projectCom .prjRight .pRLin{padding: 0px 10px;}
+.projectCom .prjRight .pRLin .pRTxt{padding: 5px 0;}
+.projectCom .prjRight .pRLin .pRTxt span{cursor: pointer;text-align: left; display: block;float: left;color: #116bc7;}
+.projectCom .prjRight .pRLin .pRTxt a{color: #116bc7;padding-left: 5px;}
+/*公告模板 S*/
+.projectCom .bdC,.projectCom .bdAdvText{ background-color: #ECF1F6; margin-left: 10px; margin-top: 20px;margin-bottom: 20px; border-radius: 5px; border:1px solid #ddd; min-height: 450px; width: 100%;}
+.projectCom .bdAdvTip{background-color: #d4edf9; width:100%;margin-left: 10px;overflow: hidden; margin-top: 20px;  border-radius: 5px; border:1px solid #ddd;}
+.projectCom .bdAdvCom .bdAdvFile{ padding: 10px; width: 70%;  color: #666;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTit{width: 60px;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTit i{ display: block; float: left; padding-top: 3px;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTit span{padding-left: 5px; font-size: 14px; font-weight: bold;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTxt{overflow:hidden; line-height: 20px; width: 300px;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTxt a{color: #116bc7;}
+.projectCom .bdAdvCom .AdvBtn{padding:0 10px; padding-top: 10px;}
+.projectCom .bdAdvCom .AdvBtn div{padding-bottom: 10px;}
+.projectCom .bdAdvCom .wordPage{color: #999; margin: 0 10px; height: 30px; line-height: 30px; border-bottom: 4px double #ddd;}
+.projectCom .bdAdvCom .wordFootPage{border:0 none; border-top:1px solid #ddd;}
+.projectCom .bdAdvCom .tTit{padding: 0 20px; padding-top: 10px; font-size: 20px; font-weight: bold;}
+.projectCom .bdAdvCom .fTit{font-size: 16px; color: #666;}
+.projectCom .bdAdvCom .advBox{padding:10px 20px; font-size: 14px;  line-height: 30px;}
+.projectCom .bdAdvCom .advBox .advTit{font-size: 16px; padding-top: 10px;color: #333;}
+.projectCom .bdAdvCom .advBox .advTxt{color: #666;}
+.projectCom .bdAdvCom .advBox .advTxt span{color: #333;}
+/*公告模板 E*/
+.projectCom .askList{ padding: 10px;}
+.projectCom .askList .askTxt{ width: 400px; line-height: 25px;color: #464646;}
+.projectCom .askBox{padding: 10px;}
+
+.finTab{ width: 100%;border-collapse: separate;border-spacing:0;border-bottom:1px solid #ddd;}
+.finTab tr th,.finTab tr td{border-top:1px solid #ddd; border-right:1px solid #ddd;padding: 8px;}
+.finTab tr td span{color: #666;}
+
+.projectCom .chEBtn{padding: 15px;}
+.projectCom .chEBtn a{margin-right: 10px;}
+
+/*项目管理 E*/

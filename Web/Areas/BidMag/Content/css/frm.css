@@ -1,0 +1,189 @@
+html, body{ background-color:#fff;}
+a{text-decoration:none;}
+/* =========================内页通用样式.开始======================= */
+.location{ padding-bottom:9px; border-bottom:solid 1px #e1e1e1; height:22px; line-height:22px; font-size:12px; color:#333; }
+	.location a{ display:inline-block; color:#333; text-decoration:none; }
+	.location a:hover{ color:#0065D9; text-decoration:none; }
+	.location a i{ display:inline-block; margin-right:5px; width:14px; height:14px; text-indent:-999em; background:url(skin_icons.png) no-repeat; vertical-align:middle; *text-indent:0; /*float:left;*margin-top:5px;*/ }
+	.location a.back{ margin-right:15px; }
+	.location a.back i{ background-position:0 0; }
+	.location a.home i{ background-position:-28px 0; }
+	.location span{ display:inline-block; vertical-align:middle; }
+	.location .arrow{ display:inline-block; margin:auto 3px; width:14px; height:14px; background:url(skin_icons.png) no-repeat -56px 0; vertical-align:middle; }
+textarea{ overflow:auto; }
+textarea.input{ width:300px; height:65px; }
+.input{ padding:5px 4px; min-height:20px; line-height:20px; border:1px solid #d4d4d4; background:#fff; vertical-align:middle; color:#333; font-size:100%; }
+	.input.normal{ width:300px; }
+	.input.txt{ width:200px; }
+	.input.small{ width:50px; }
+	.input:focus{ background:#FFFBDE; border-color:#7BBFF2; outline:2px solid #99D8F5; }
+.input-date{ position:relative; display:inline-block; width:180px; height:30px; vertical-align:middle; *display:inline; }
+	.input-date .date{ width:170px; }
+	.input-date i{ position:absolute; top:8px; right:8px; width:14px; height:14px; text-indent:-99em; background:url(skin_icons.png) no-repeat -196px -112px; overflow:hidden;}
+.select{ margin:1px; padding:4px; min-height:20px; line-height:20px; border:1px solid #d4d4d4; background:#fff; vertical-align:middle; color:#333; font-size:100%; }
+.select1{ padding:1px; min-height:20px; line-height:20px; border:1px solid #d4d4d4; background:#fff; vertical-align:middle; color:#333; font-size:100%; }
+/* =========================内页通用样式.结束======================= */
+/*按钮样式*/
+.td-input{ display:inline-block; padding:0 3px; border:1px solid #d7d7d7; height:20px; line-height:18px; color:#666; font-size:12px; background:#fff; vertical-align:middle; }
+/*.btn{ background:#16a0d3; border:none; color:#fff; cursor:pointer; display:inline-block; font-family:"Microsoft Yahei"; font-size:12px; height:32px; line-height:32px; margin:0 1px 0 0; padding:0 20px; }
+	.btn:hover{ background:#117ea6; }
+	.btn.green{ background:#52A152; }
+	.btn.green:hover{ background:#328032; }
+	.btn.yellow{ background:#FF9C30;}
+	.btn.yellow:hover{ background:#c87316; }
+	.btn.violet{ background:#993333 ; }
+	.btn.violet:hover{ background:#990033; }*/
+.icon-btn{ display:inline-block; margin:0; padding:4px 10px 4px 8px; line-height:20px; height:20px; border:solid 1px #e1e1e1; color:#333; font-size:12px; text-decoration:none; cursor:pointer; }
+	.icon-btn:hover{ color:#2A72C5; }
+	.icon-btn span{ display:inline-block; vertical-align:middle; }
+	.icon-btn i{ display:inline-block; margin-right:3px; width:14px; height:14px; text-indent:-9999em; background:url(skin_icons.png) no-repeat; vertical-align:middle; *text-indent:0; }
+	.icon-btn.add i{ background-position:0 -28px; }
+.img-btn{ display:inline-block; margin:0 2px; width:14px; height:14px; text-indent:-99em; text-decoration:none; background:url(skin_icons.png) no-repeat; vertical-align:middle; cursor:pointer; overflow:hidden; }
+	.img-btn.edit{ background-position:-140px -112px; }
+	.img-btn.del{ background-position:-84px -28px; }
+
+/* ==========================编辑页样式.开始======================== */
+/*Tab选项卡*/
+.content-tab-wrap{ height:42px; }
+.content-tab{ z-index:3; left:15px; right:15px; height:41px; background:#fff; border-bottom:1px solid #e2e2e5; }
+	.content-tab-ul-wrap{ position:relative;}
+	.content-tab ul{ position:absolute; left:0; top:10px; }
+	.content-tab ul li{ position:relative; display:block; float:left; margin-right:-1px; }
+	.content-tab ul li a{ float:left; padding:0 25px; border-top:1px solid #e1e1e1; border-right:1px solid #e1e1e1; border-left:1px solid #e1e1e1; height:30px; line-height:31px; font-size:12px; color:#333; text-align:center; background:#f9f9f9; }
+	.content-tab ul li a:hover{ color:#2A72C5; text-decoration:none; }
+	.content-tab ul li a.selected{ color:#222; background:#fff; height:31px; }
+/*Tab选项卡内容*/
+.div-content{ padding:10px 0; font-size:12px; color:#666; }
+	.div-content dl dt{ display:block; float:left; width:130px; text-align:right; color:#333; }
+	.div-content dl dd{ margin-left:150px; }
+.tab-content{ padding:20px 0; font-size:12px; color:#666; border-top:none; }
+	.tab-content dl,.div-content dl{margin:0; clear:both; display:block; padding:8px 0; line-height:30px; }
+	.tab-content dl:after,.div-content dl:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+	.tab-content dl:first-child{ border-top:none; }
+	.tab-content dl dt{ display:block; float:left; width:150px; text-align:right; color:#333; }
+	.tab-content dl dd{ margin-left:170px; }
+	
+
+/*表格样式*/
+.border-table{ border-width:1px; margin:0; background:#fff; }
+	.border-table th{ margin:0; padding:2px 10px; line-height:26px; height:28px; border:1px solid #e1e1e1; vertical-align:middle; white-space:nowrap; word-break:keep-all; }
+	.border-table td{ margin:0; padding:2px 10px; line-height:26px; height:28px; border:1px solid #e1e1e1; vertical-align:middle; white-space:nowrap; word-break:keep-all; }
+	.border-table td input{ vertical-align:middle; }
+	.border-table td .position{ position:relative; min-height:100%; }
+	.border-table td .ibtn{ position:absolute;top:0; right:-7px; background:#cc; border:none; color:#666; cursor:pointer; font-family:"Microsoft Yahei"; font-size:12px; height:25px; line-height:25px; padding:0 12px; }
+	.border-table td .ibtn:hover{ color:#fff; background:#FF9C30; }
+	.border-table thead th{ color:#333; font-weight:normal; white-space:nowrap; text-align:center; background:#f9f9f9; }
+	.border-table tbody th{padding-right:5px; text-align:right;color:#707070;background-color:#f9f9f9}
+	.border-table tr.td_c td{ text-align:center; }
+	.border-table td .cbllist input{ vertical-align:middle; }
+	.border-table td .cbllist label{ margin-right:5px; vertical-align:middle; }
+	.border-table td .folder-open{ display:inline-block; margin-right:2px; width:20px; height:20px; background:url(skin_icons.png) -40px -196px no-repeat; vertical-align:middle; text-indent:-999em; }
+	.border-table td .folder-line{display:inline-block; margin-right:2px; width:20px; height:20px; background:url(skin_icons.png) -80px -196px no-repeat; vertical-align:middle; text-indent:-999em; }
+
+
+/*多项单选*/
+.multi-radio{ display:inline-block; vertical-align:middle; *display:inline; }
+	.multi-radio:after{ clear:both; content:"."; display:block; height:0; visibility:hidden; }
+	.multi-radio .boxwrap{ display:inline-block; vertical-align:middle; *display:inline;}
+	.multi-radio a{ display:inline-block; margin-right:-1px; float:left; padding:5px 15px; height:20px; line-height:20px; border:1px solid #d4d4d4; vertical-align:middle; color:#333; font-size:100%; cursor:pointer; }
+	.multi-radio a:hover{ background:#C9E1EF; text-decoration:none; }
+	.multi-radio a:active{ text-decoration:none; }
+	.multi-radio a.selected{ background:#16a0d3; border-color:#1096c7; color:#fff; }
+/*单项选择*/
+.single-checkbox{ display:inline-block; vertical-align:middle; cursor:pointer; *display:inline; }
+	.single-checkbox a,.single-checkbox a:visited{ display:inline-block; border:1px solid #d4d4d4; background:#d4d4d4; width:80px; vertical-align:middle; text-decoration:none; }
+	.single-checkbox a i{ display:block; width:50%; height:28px; line-height:28px; font-style:normal; background:#fff; color:#333; text-align:center; }
+	.single-checkbox a i.on{ float:right; display:none; }
+	.single-checkbox a i.off{ float:left; display:block; }
+	.single-checkbox a.selected{ border:1px solid #16a0d3; background:#16a0d3; }
+	.single-checkbox a.selected i.on{ display:block; }
+	.single-checkbox a.selected i.off{ display:none; }
+/*多项选择*/
+.multi-checkbox{ display:inline-block; vertical-align:middle; }
+	.multi-checkbox:after{ clear:both; content:"."; display:block; height:0; visibility:hidden; }
+	.multi-checkbox .boxwrap{ display:inline-block; vertical-align:middle; }
+	.multi-checkbox a{ display:inline-block; float:left; margin-right:-1px; padding:5px 15px; height:20px; line-height:20px; border:1px solid #d4d4d4; vertical-align:middle; color:#333; font-size:100%; cursor:pointer; }
+	.multi-checkbox a:hover{ background:#C9E1EF; text-decoration:none; }
+	.multi-checkbox a:active{ text-decoration:none; }
+	.multi-checkbox a.selected{ background:#16a0d3; border-color:#1096c7; color:#fff; }
+	.multi-checkbox a:last-child{ /*border-right:1px solid #d4d4d4;*/ }
+/*多项选择PORP*/
+.multi-porp{ }
+	.multi-porp ul li{ float:left; position:relative; margin:0 8px 8px 0; padding:1px; line-height:20px; vertical-align:middle; }
+	.multi-porp ul li a{ display:block; padding:4px 10px; color:#666; min-width:10px; width:auto !important;  text-align:center; text-decoration:none; white-space:nowrap; border:1px solid #ccc; cursor:pointer; }
+	.multi-porp ul li i{ display:none; position:absolute; right:0; bottom:0; width:12px; height:12px; text-indent:-99em; background:url(skin_icons.png) -169px -85px no-repeat; overflow:hidden; }
+	.multi-porp ul li.sys{ background:#FFFFD0; }
+	.multi-porp ul li.selected a{ margin:-1px; color:#333; border:2px solid #1e99c7; }
+	.multi-porp ul li.selected i{ display:block; background-position:-169px -113px; }
+/*下拉菜单*/
+.single-select{ position:relative; display:inline-block; margin-right:5px; vertical-align:middle; cursor:pointer; *float:left; }
+	.single-select .boxwrap{ display:inline-block; vertical-align:middle; }
+	.single-select .select-tit{ position:relative; display:block; padding:5px 38px 5px 10px; min-width:40px; line-height:20px; height:20px; border:solid 1px #dbdbdb; text-decoration:none; background:#fff; white-space:nowrap; word-break:break-all; }
+	.single-select .select-tit span{ display:inline-block; color:#333; font-size:12px; vertical-align:middle; }
+	.single-select .select-tit i{ position:absolute; right:0; top:0; display:block; width:28px; height:100%; border-left:1px solid #dbdbdb; background:url(skin_icons.png)  -49px -160px no-repeat #fafafa; }
+	.single-select .select-items{ display:none; position:absolute; left:0; top:45px; /*overflow:hidden;*/ }
+	.single-select .select-items ul{ position:relative; padding:5px; min-width:120px; max-height:280px; border:1px solid #dbdbdb; background:#fff; overflow-y:auto; overflow-x:hidden; }
+	.single-select .select-items ul li{ display:block; padding:4px 10px; line-height:20px; font-size:12px; color:#666; white-space:nowrap; cursor:pointer; }
+	.single-select .select-items ul li:hover{ color:#fff; text-decoration:none; background:#16a0d3; }
+	.single-select .select-items ul li.selected{ color:#FFF; background:#16a0d3; }
+	.single-select .arrow{ display:none; position:absolute; left:15px; top:35px; width:21px; height:11px; text-indent:-9999px; background:url(skin_icons.png) -40px -356px no-repeat; }
+
+.page-footer{ padding:10px 0; height:32px; }
+	.page-footer:after{ clear:both;content:".";display:block;height:0;visibility:hidden; }
+	.page-footer .btn-list{ position:fixed; /*padding:10px 0; left:15px; right:15px; */bottom:0; z-index:3;/* background:#fff;*/ }
+	/*.page-footer .btn-list .absbg{ position:absolute; left:0; top:0; width:100%; height:100%; background:#fff; filter:alpha(opacity=80); opacity:0.8; }*/
+/* ==========================编辑页样式.结束======================== */
+
+
+
+  .list-name-input{
+   color: #333;
+   font-family: tahoma, 'Microsoft YaHei', 'Segoe UI', Arial, 'Microsoft Yahei', Simsun, sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+   height: 50px;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+   width: 306px;
+  }
+  .list-name-for-select{
+   border: 0;
+   color: #555;
+   height: 20px;
+   lighting-color: rgb(255, 255, 255);
+   line-height: 20px;
+   margin:0 0 10px 0;
+
+   outline-color: #555;
+   outline-offset: 0px;
+   outline-style: none;
+   outline-width: 0px;
+
+   padding: 4px 6px;
+   position: absolute;
+   top: 1px;
+   left: 3px;
+   vertical-align: middle;
+   width: 260px;
+  }
+  .list-name-input-for-select:focus{
+   border: 0;
+   border-radius: 0;
+  }
+  .list-select{
+   background-color: #FFF;
+   border:1px #ccc solid;
+   border-radius: 4px;
+   color: #555;
+   cursor: pointer;
+   height: 30px;
+   left: 0px;
+   margin:0 0 10px 0;
+   padding: 4px 6px;
+   position: absolute;
+   top: 0px;
+   vertical-align: middle;
+   white-space: pre;
+   width: 306px;
+  }

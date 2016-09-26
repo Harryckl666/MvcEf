@@ -1,0 +1,16 @@
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\IModelRespoity.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\IModelRespoity.pdb
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\CommonClass.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\Easy.Framework.Core.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\ModelToSql.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\EntityFramework.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\Easy.Framework.Data.EF.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\Easy.Framework.Utils.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\CommonClass.pdb
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\ModelToSql.pdb
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\Easy.Framework.Core.pdb
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\Easy.Framework.Data.EF.pdb
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\bin\Debug\Easy.Framework.Utils.pdb
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\obj\Debug\IModelRespoity.csprojResolveAssemblyReference.cache
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\obj\Debug\IModelRespoity.dll
+D:\我的文档\visual studio 2013\Projects\MVCEF\IModelRespoity\obj\Debug\IModelRespoity.pdb

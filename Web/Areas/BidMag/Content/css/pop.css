@@ -1,0 +1,49 @@
+
+.popCom{margin: 15px; border:1px solid #ddd; overflow: hidden;}
+.popCom .fileBox{border:1px dotted #ddd; width: 446px; margin: 10px auto;}
+.popCom .fileBox .fileNav{padding: 15px 0;width: 446px; margin: 0 auto;}
+.popCom .fileBox .fileCom{display: none;}
+.popCom .fileBox .fileCom.active{display: block;}
+.popCom .fileBox .fileCom .fileBtn{padding: 10px;}
+.popCom .fileBox .fileCom .fileBtn a{margin-right: 10px;}
+.popCom .fileBox .fileCom .fileBn{line-height: 25px; height: 25px; text-indent: 15px; font-weight: bold; color: #666; background: #eee; border-bottom: 1px solid #ddd;border-top:1px solid #ddd;}
+.popCom .fileBox .fileCom .fileDoc{ padding: 7px 10px; clear: both;color: #999;}
+.popCom .fileBox .fileCom .fileDoc .fileTit .chkFile{margin-top: 3px; display: block;float: left;}
+.popCom .fileBox .fileCom .fileDoc .fileTit span{color: #666; padding-left: 5px;}
+.popCom .fileBox .fileCom .chFiBtn{padding: 10px;}
+
+.popCom .popLin{padding: 10px 10px;overflow: hidden;}
+.popCom .popLin .popTit{ width: 80px; display: block; float: left;}
+.popCom .popLin .popSelect{border-radius: 3px; height: 30px; width: 165px;}
+.popCom .popLin .popText{border-radius: 3px; height: 15px;padding: 5px; border:1px solid #ddd; width: 150px;}
+.popCom .popLin .popCheckbox{ margin:0 5px; margin-top: 3px;}
+.popCom .popBtn{padding: 10px;overflow: hidden;}
+
+
+.popTab{ width: 100%;border-collapse: separate;border-spacing:0;}
+.popTab tr th{background-color: #D8E2EC; border-right: 1px solid #fff;}
+.popTab tr th,.popTab tr td{border-bottom:1px solid #ddd; padding: 8px;}
+.popTab tr td span{color: #666;}
+
+#n{margin: 10px auto;width: 920px;border: 1px solid #CCC;font-size: 14px;line-height: 30px;}
+.Bars{position: relative;width: 200px; border: 1px solid #B1D632;padding: 1px;}
+.Bars div{display: block;position: relative;background: #00F;color: #333333;height: 20px; line-height: 20px; }
+.Bars div{color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top,#08c,#04c);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));
+background-image: -webkit-linear-gradient(top,#08c,#04c);
+background-image: -o-linear-gradient(top,#08c,#04c);
+background-image: linear-gradient(to bottom,#08c,#04c);
+background-repeat: repeat-x;
+border-color: #04c #04c #002a80;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);}
+.Bars div span{position: absolute;width: 200px;text-align: center;font-weight: bold;color: #DCC1C3;}
+.popTextBox{ padding:15px;}
+.popTextBox .search_col{ padding-right:10px;}
+.popTextBox .search_col .text{ border-radius:4px; height:12px;}
+.popTextBox .search_col .popSelect{border-radius:4px; height:25px;}
+.table-bordered tr td{ border:1px solid #ddd;}

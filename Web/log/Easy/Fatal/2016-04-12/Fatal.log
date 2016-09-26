@@ -1,0 +1,1122 @@
+[2016-04-12 21:06:08.917] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:08 +08:00
+ 打开了连接
+[2016-04-12 21:06:08.952] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[IsAdmin] AS [IsAdmin], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Roles] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'超级管理员' = [Extent1].[Name])
+[2016-04-12 21:06:08.953] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:08.954] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:08.954] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:08.954] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:08 +08:00
+ 执行
+[2016-04-12 21:06:09.001] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 46 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.002] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.006] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.007] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.009] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[IsAdmin] AS [IsAdmin], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Roles] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'超级管理员' = [Extent1].[Name])
+[2016-04-12 21:06:09.009] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.009] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.010] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.010] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.039] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 28 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.039] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.039] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.044] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.051] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Password] AS [Password], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[DisplayName] AS [DisplayName], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[DateLastLogon] AS [DateLastLogon], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Users] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'admin' = [Extent1].[Name])
+[2016-04-12 21:06:09.051] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.052] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.052] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.052] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.067] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.068] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.070] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.071] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.072] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Password] AS [Password], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[DisplayName] AS [DisplayName], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[DateLastLogon] AS [DateLastLogon], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Users] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'admin' = [Extent1].[Name])
+[2016-04-12 21:06:09.073] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.073] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.073] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.073] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.088] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.089] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.089] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.092] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.134] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'系统模块' = [Extent1].[Name])
+[2016-04-12 21:06:09.134] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.135] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.135] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.135] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.151] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 15 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.151] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.155] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.156] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.157] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'系统模块' = [Extent1].[Name])
+[2016-04-12 21:06:09.158] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.158] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.158] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.159] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.173] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.174] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.174] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.179] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.181] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'资源管理' = [Extent1].[Name])
+[2016-04-12 21:06:09.181] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.181] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.181] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.182] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.198] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 16 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.198] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.199] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.199] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.201] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'资源管理' = [Extent1].[Name])
+[2016-04-12 21:06:09.201] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.201] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.201] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.202] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.216] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.217] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.217] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.218] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.219] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'获取资源数据' = [Extent1].[Name])
+[2016-04-12 21:06:09.220] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.220] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.220] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.220] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.235] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.235] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.236] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.236] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.238] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'获取资源数据' = [Extent1].[Name])
+[2016-04-12 21:06:09.238] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.238] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.238] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.239] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.253] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.254] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.254] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.255] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.256] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'新增资源' = [Extent1].[Name])
+[2016-04-12 21:06:09.257] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.257] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.257] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.257] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.272] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 13 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.272] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.272] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.273] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.274] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'新增资源' = [Extent1].[Name])
+[2016-04-12 21:06:09.275] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.275] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.275] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.275] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.292] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 15 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.292] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.293] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.294] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.300] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[ButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (0 = [Extent1].[IsDeleted]) AND (1 = [Extent1].[BtnType])
+[2016-04-12 21:06:09.301] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.301] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.301] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.301] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.316] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.317] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.319] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.320] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.321] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[ButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (0 = [Extent1].[IsDeleted]) AND (0 = [Extent1].[BtnType])
+[2016-04-12 21:06:09.322] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.322] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.322] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.322] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.337] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.337] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:09.337] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:09.341] Easy.Framework.Data.EF.DbContextBase 9：已于 2016/4/12 21:06:09 +08:00
+ 打开了连接
+[2016-04-12 21:06:09.343] Easy.Framework.Data.EF.DbContextBase 9：SELECT 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (1 = [Extent1].[Type])
+    ORDER BY [Extent1].[SortId] ASC
+[2016-04-12 21:06:09.343] Easy.Framework.Data.EF.DbContextBase 9：
+
+[2016-04-12 21:06:09.344] Easy.Framework.Data.EF.DbContextBase 9：-- DynamicFilterParam_1: 'null' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:09.344] Easy.Framework.Data.EF.DbContextBase 9：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:09.344] Easy.Framework.Data.EF.DbContextBase 9：-- 正在 2016/4/12 21:06:09 +08:00
+ 执行
+[2016-04-12 21:06:09.359] Easy.Framework.Data.EF.DbContextBase 9：-- 已在 13 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:09.360] Easy.Framework.Data.EF.DbContextBase 9：
+
+[2016-04-12 21:06:09.361] Easy.Framework.Data.EF.DbContextBase 9：已于 2016/4/12 21:06:09 +08:00
+ 关闭了连接
+[2016-04-12 21:06:25.991] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:25 +08:00
+ 打开了连接
+[2016-04-12 21:06:25.994] Easy.Framework.Data.EF.DbContextBase 8：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[ApplicationId] AS [ApplicationId], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[Path] AS [Path], 
+    [Extent1].[Level] AS [Level], 
+    [Extent1].[SortId] AS [SortId], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Using] AS [Using], 
+    [Extent1].[Ico] AS [Ico], 
+    [Extent1].[Uri] AS [Uri], 
+    [Extent1].[Type] AS [Type], 
+    [Extent1].[Enabled] AS [Enabled], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Resources] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[Id] = @p0)
+[2016-04-12 21:06:25.994] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:25.994] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:25.995] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:25.995] Easy.Framework.Data.EF.DbContextBase 8：-- p0: 'bf99dea2-2982-4126-9043-a5e301795cc9' (Type = Guid)
+
+[2016-04-12 21:06:25.995] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:25 +08:00
+ 执行
+[2016-04-12 21:06:26.013] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 17 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.013] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.014] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.049] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.062] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[ResourceId] AS [ResourceId], 
+    [Extent1].[ButtonDicId] AS [ButtonDicId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[UseButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ResourceId] = @EntityKeyValue1)
+[2016-04-12 21:06:26.062] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.062] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.063] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.063] Easy.Framework.Data.EF.DbContextBase 8：-- EntityKeyValue1: 'bf99dea2-2982-4126-9043-a5e301795cc9' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.063] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.087] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 23 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.088] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.088] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.096] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.100] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ApplicationId] AS [ApplicationId], 
+    [Project1].[ParentId] AS [ParentId], 
+    [Project1].[Path] AS [Path], 
+    [Project1].[Level] AS [Level], 
+    [Project1].[SortId] AS [SortId], 
+    [Project1].[Name] AS [Name], 
+    [Project1].[Using] AS [Using], 
+    [Project1].[Ico] AS [Ico], 
+    [Project1].[Uri] AS [Uri], 
+    [Project1].[Type] AS [Type], 
+    [Project1].[Enabled] AS [Enabled], 
+    [Project1].[AddUserId] AS [AddUserId], 
+    [Project1].[LastUserId] AS [LastUserId], 
+    [Project1].[AddDate] AS [AddDate], 
+    [Project1].[LastDate] AS [LastDate], 
+    [Project1].[IsDeleted] AS [IsDeleted], 
+    [Project1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ApplicationId] AS [ApplicationId], 
+        [Extent1].[ParentId] AS [ParentId], 
+        [Extent1].[Path] AS [Path], 
+        [Extent1].[Level] AS [Level], 
+        [Extent1].[SortId] AS [SortId], 
+        [Extent1].[Name] AS [Name], 
+        [Extent1].[Using] AS [Using], 
+        [Extent1].[Ico] AS [Ico], 
+        [Extent1].[Uri] AS [Uri], 
+        [Extent1].[Type] AS [Type], 
+        [Extent1].[Enabled] AS [Enabled], 
+        [Extent1].[AddUserId] AS [AddUserId], 
+        [Extent1].[LastUserId] AS [LastUserId], 
+        [Extent1].[AddDate] AS [AddDate], 
+        [Extent1].[LastDate] AS [LastDate], 
+        [Extent1].[IsDeleted] AS [IsDeleted], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Resources] AS [Extent1]
+        WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ParentId] = @p__linq__0)
+    )  AS [Project1]
+    ORDER BY [Project1].[SortId] ASC
+[2016-04-12 21:06:26.100] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.100] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.101] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.101] Easy.Framework.Data.EF.DbContextBase 8：-- p__linq__0: 'bf99dea2-2982-4126-9043-a5e301795cc9' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.101] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.117] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 16 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.118] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.118] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.119] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.119] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[ResourceId] AS [ResourceId], 
+    [Extent1].[ButtonDicId] AS [ButtonDicId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[UseButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ResourceId] = @EntityKeyValue1)
+[2016-04-12 21:06:26.120] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.120] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.120] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.120] Easy.Framework.Data.EF.DbContextBase 8：-- EntityKeyValue1: '85db24e0-0944-4a35-9f26-a5e30179aafe' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.121] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.134] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 12 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.134] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.138] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.145] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.146] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ApplicationId] AS [ApplicationId], 
+    [Project1].[ParentId] AS [ParentId], 
+    [Project1].[Path] AS [Path], 
+    [Project1].[Level] AS [Level], 
+    [Project1].[SortId] AS [SortId], 
+    [Project1].[Name] AS [Name], 
+    [Project1].[Using] AS [Using], 
+    [Project1].[Ico] AS [Ico], 
+    [Project1].[Uri] AS [Uri], 
+    [Project1].[Type] AS [Type], 
+    [Project1].[Enabled] AS [Enabled], 
+    [Project1].[AddUserId] AS [AddUserId], 
+    [Project1].[LastUserId] AS [LastUserId], 
+    [Project1].[AddDate] AS [AddDate], 
+    [Project1].[LastDate] AS [LastDate], 
+    [Project1].[IsDeleted] AS [IsDeleted], 
+    [Project1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ApplicationId] AS [ApplicationId], 
+        [Extent1].[ParentId] AS [ParentId], 
+        [Extent1].[Path] AS [Path], 
+        [Extent1].[Level] AS [Level], 
+        [Extent1].[SortId] AS [SortId], 
+        [Extent1].[Name] AS [Name], 
+        [Extent1].[Using] AS [Using], 
+        [Extent1].[Ico] AS [Ico], 
+        [Extent1].[Uri] AS [Uri], 
+        [Extent1].[Type] AS [Type], 
+        [Extent1].[Enabled] AS [Enabled], 
+        [Extent1].[AddUserId] AS [AddUserId], 
+        [Extent1].[LastUserId] AS [LastUserId], 
+        [Extent1].[AddDate] AS [AddDate], 
+        [Extent1].[LastDate] AS [LastDate], 
+        [Extent1].[IsDeleted] AS [IsDeleted], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Resources] AS [Extent1]
+        WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ParentId] = @p__linq__0)
+    )  AS [Project1]
+    ORDER BY [Project1].[SortId] ASC
+[2016-04-12 21:06:26.147] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.147] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.147] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.147] Easy.Framework.Data.EF.DbContextBase 8：-- p__linq__0: '85db24e0-0944-4a35-9f26-a5e30179aafe' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.148] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.159] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 10 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.159] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.160] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.160] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.161] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[ResourceId] AS [ResourceId], 
+    [Extent1].[ButtonDicId] AS [ButtonDicId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[UseButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ResourceId] = @EntityKeyValue1)
+[2016-04-12 21:06:26.161] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.161] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.161] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.162] Easy.Framework.Data.EF.DbContextBase 8：-- EntityKeyValue1: '2b9098a4-a1cf-41c9-bba3-a5e30179f6c8' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.162] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.177] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.178] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.178] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.178] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.179] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ApplicationId] AS [ApplicationId], 
+    [Project1].[ParentId] AS [ParentId], 
+    [Project1].[Path] AS [Path], 
+    [Project1].[Level] AS [Level], 
+    [Project1].[SortId] AS [SortId], 
+    [Project1].[Name] AS [Name], 
+    [Project1].[Using] AS [Using], 
+    [Project1].[Ico] AS [Ico], 
+    [Project1].[Uri] AS [Uri], 
+    [Project1].[Type] AS [Type], 
+    [Project1].[Enabled] AS [Enabled], 
+    [Project1].[AddUserId] AS [AddUserId], 
+    [Project1].[LastUserId] AS [LastUserId], 
+    [Project1].[AddDate] AS [AddDate], 
+    [Project1].[LastDate] AS [LastDate], 
+    [Project1].[IsDeleted] AS [IsDeleted], 
+    [Project1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ApplicationId] AS [ApplicationId], 
+        [Extent1].[ParentId] AS [ParentId], 
+        [Extent1].[Path] AS [Path], 
+        [Extent1].[Level] AS [Level], 
+        [Extent1].[SortId] AS [SortId], 
+        [Extent1].[Name] AS [Name], 
+        [Extent1].[Using] AS [Using], 
+        [Extent1].[Ico] AS [Ico], 
+        [Extent1].[Uri] AS [Uri], 
+        [Extent1].[Type] AS [Type], 
+        [Extent1].[Enabled] AS [Enabled], 
+        [Extent1].[AddUserId] AS [AddUserId], 
+        [Extent1].[LastUserId] AS [LastUserId], 
+        [Extent1].[AddDate] AS [AddDate], 
+        [Extent1].[LastDate] AS [LastDate], 
+        [Extent1].[IsDeleted] AS [IsDeleted], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Resources] AS [Extent1]
+        WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ParentId] = @p__linq__0)
+    )  AS [Project1]
+    ORDER BY [Project1].[SortId] ASC
+[2016-04-12 21:06:26.180] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.180] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.180] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.180] Easy.Framework.Data.EF.DbContextBase 8：-- p__linq__0: '2b9098a4-a1cf-41c9-bba3-a5e30179f6c8' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.181] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.192] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 10 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.192] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.193] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.193] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.193] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[ResourceId] AS [ResourceId], 
+    [Extent1].[ButtonDicId] AS [ButtonDicId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[UseButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ResourceId] = @EntityKeyValue1)
+[2016-04-12 21:06:26.194] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.194] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.194] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.194] Easy.Framework.Data.EF.DbContextBase 8：-- EntityKeyValue1: 'c19669ad-1d82-4b27-839d-a5e3017a2e77' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.195] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.208] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 12 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.208] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.209] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.209] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.210] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ApplicationId] AS [ApplicationId], 
+    [Project1].[ParentId] AS [ParentId], 
+    [Project1].[Path] AS [Path], 
+    [Project1].[Level] AS [Level], 
+    [Project1].[SortId] AS [SortId], 
+    [Project1].[Name] AS [Name], 
+    [Project1].[Using] AS [Using], 
+    [Project1].[Ico] AS [Ico], 
+    [Project1].[Uri] AS [Uri], 
+    [Project1].[Type] AS [Type], 
+    [Project1].[Enabled] AS [Enabled], 
+    [Project1].[AddUserId] AS [AddUserId], 
+    [Project1].[LastUserId] AS [LastUserId], 
+    [Project1].[AddDate] AS [AddDate], 
+    [Project1].[LastDate] AS [LastDate], 
+    [Project1].[IsDeleted] AS [IsDeleted], 
+    [Project1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ApplicationId] AS [ApplicationId], 
+        [Extent1].[ParentId] AS [ParentId], 
+        [Extent1].[Path] AS [Path], 
+        [Extent1].[Level] AS [Level], 
+        [Extent1].[SortId] AS [SortId], 
+        [Extent1].[Name] AS [Name], 
+        [Extent1].[Using] AS [Using], 
+        [Extent1].[Ico] AS [Ico], 
+        [Extent1].[Uri] AS [Uri], 
+        [Extent1].[Type] AS [Type], 
+        [Extent1].[Enabled] AS [Enabled], 
+        [Extent1].[AddUserId] AS [AddUserId], 
+        [Extent1].[LastUserId] AS [LastUserId], 
+        [Extent1].[AddDate] AS [AddDate], 
+        [Extent1].[LastDate] AS [LastDate], 
+        [Extent1].[IsDeleted] AS [IsDeleted], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Resources] AS [Extent1]
+        WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ParentId] = @p__linq__0)
+    )  AS [Project1]
+    ORDER BY [Project1].[SortId] ASC
+[2016-04-12 21:06:26.211] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.211] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.211] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.211] Easy.Framework.Data.EF.DbContextBase 8：-- p__linq__0: 'c19669ad-1d82-4b27-839d-a5e3017a2e77' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.212] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.224] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 12 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.224] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.225] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.225] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.226] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[ResourceId] AS [ResourceId], 
+    [Extent1].[ButtonDicId] AS [ButtonDicId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[UseButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ResourceId] = @EntityKeyValue1)
+[2016-04-12 21:06:26.226] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.226] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.227] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.227] Easy.Framework.Data.EF.DbContextBase 8：-- EntityKeyValue1: 'd97fc613-e7e9-4c50-ba86-a5e3017a9c8d' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.227] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.240] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 12 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.241] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.241] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.242] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.242] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ApplicationId] AS [ApplicationId], 
+    [Project1].[ParentId] AS [ParentId], 
+    [Project1].[Path] AS [Path], 
+    [Project1].[Level] AS [Level], 
+    [Project1].[SortId] AS [SortId], 
+    [Project1].[Name] AS [Name], 
+    [Project1].[Using] AS [Using], 
+    [Project1].[Ico] AS [Ico], 
+    [Project1].[Uri] AS [Uri], 
+    [Project1].[Type] AS [Type], 
+    [Project1].[Enabled] AS [Enabled], 
+    [Project1].[AddUserId] AS [AddUserId], 
+    [Project1].[LastUserId] AS [LastUserId], 
+    [Project1].[AddDate] AS [AddDate], 
+    [Project1].[LastDate] AS [LastDate], 
+    [Project1].[IsDeleted] AS [IsDeleted], 
+    [Project1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ApplicationId] AS [ApplicationId], 
+        [Extent1].[ParentId] AS [ParentId], 
+        [Extent1].[Path] AS [Path], 
+        [Extent1].[Level] AS [Level], 
+        [Extent1].[SortId] AS [SortId], 
+        [Extent1].[Name] AS [Name], 
+        [Extent1].[Using] AS [Using], 
+        [Extent1].[Ico] AS [Ico], 
+        [Extent1].[Uri] AS [Uri], 
+        [Extent1].[Type] AS [Type], 
+        [Extent1].[Enabled] AS [Enabled], 
+        [Extent1].[AddUserId] AS [AddUserId], 
+        [Extent1].[LastUserId] AS [LastUserId], 
+        [Extent1].[AddDate] AS [AddDate], 
+        [Extent1].[LastDate] AS [LastDate], 
+        [Extent1].[IsDeleted] AS [IsDeleted], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Resources] AS [Extent1]
+        WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ParentId] = @p__linq__0)
+    )  AS [Project1]
+    ORDER BY [Project1].[SortId] ASC
+[2016-04-12 21:06:26.243] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.243] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.243] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.244] Easy.Framework.Data.EF.DbContextBase 8：-- p__linq__0: 'd97fc613-e7e9-4c50-ba86-a5e3017a9c8d' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.244] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.256] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 10 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.256] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.257] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.257] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.258] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[ResourceId] AS [ResourceId], 
+    [Extent1].[ButtonDicId] AS [ButtonDicId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[UseButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ResourceId] = @EntityKeyValue1)
+[2016-04-12 21:06:26.258] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.258] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.259] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.259] Easy.Framework.Data.EF.DbContextBase 8：-- EntityKeyValue1: '7bfe4b82-43d0-4bbd-9cbe-a5e30180cc9b' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.259] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.274] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 14 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.275] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.275] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接
+[2016-04-12 21:06:26.276] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 打开了连接
+[2016-04-12 21:06:26.277] Easy.Framework.Data.EF.DbContextBase 8：SELECT 
+    [Project1].[Id] AS [Id], 
+    [Project1].[ApplicationId] AS [ApplicationId], 
+    [Project1].[ParentId] AS [ParentId], 
+    [Project1].[Path] AS [Path], 
+    [Project1].[Level] AS [Level], 
+    [Project1].[SortId] AS [SortId], 
+    [Project1].[Name] AS [Name], 
+    [Project1].[Using] AS [Using], 
+    [Project1].[Ico] AS [Ico], 
+    [Project1].[Uri] AS [Uri], 
+    [Project1].[Type] AS [Type], 
+    [Project1].[Enabled] AS [Enabled], 
+    [Project1].[AddUserId] AS [AddUserId], 
+    [Project1].[LastUserId] AS [LastUserId], 
+    [Project1].[AddDate] AS [AddDate], 
+    [Project1].[LastDate] AS [LastDate], 
+    [Project1].[IsDeleted] AS [IsDeleted], 
+    [Project1].[Timestamp] AS [Timestamp]
+    FROM ( SELECT 
+        [Extent1].[Id] AS [Id], 
+        [Extent1].[ApplicationId] AS [ApplicationId], 
+        [Extent1].[ParentId] AS [ParentId], 
+        [Extent1].[Path] AS [Path], 
+        [Extent1].[Level] AS [Level], 
+        [Extent1].[SortId] AS [SortId], 
+        [Extent1].[Name] AS [Name], 
+        [Extent1].[Using] AS [Using], 
+        [Extent1].[Ico] AS [Ico], 
+        [Extent1].[Uri] AS [Uri], 
+        [Extent1].[Type] AS [Type], 
+        [Extent1].[Enabled] AS [Enabled], 
+        [Extent1].[AddUserId] AS [AddUserId], 
+        [Extent1].[LastUserId] AS [LastUserId], 
+        [Extent1].[AddDate] AS [AddDate], 
+        [Extent1].[LastDate] AS [LastDate], 
+        [Extent1].[IsDeleted] AS [IsDeleted], 
+        [Extent1].[Timestamp] AS [Timestamp]
+        FROM [dbo].[Resources] AS [Extent1]
+        WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[ParentId] = @p__linq__0)
+    )  AS [Project1]
+    ORDER BY [Project1].[SortId] ASC
+[2016-04-12 21:06:26.277] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.278] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-04-12 21:06:26.278] Easy.Framework.Data.EF.DbContextBase 8：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-04-12 21:06:26.278] Easy.Framework.Data.EF.DbContextBase 8：-- p__linq__0: '7bfe4b82-43d0-4bbd-9cbe-a5e30180cc9b' (Type = Guid, IsNullable = false)
+
+[2016-04-12 21:06:26.279] Easy.Framework.Data.EF.DbContextBase 8：-- 正在 2016/4/12 21:06:26 +08:00
+ 执行
+[2016-04-12 21:06:26.290] Easy.Framework.Data.EF.DbContextBase 8：-- 已在 10 毫秒内完成，结果为: SqlDataReader
+
+[2016-04-12 21:06:26.290] Easy.Framework.Data.EF.DbContextBase 8：
+
+[2016-04-12 21:06:26.290] Easy.Framework.Data.EF.DbContextBase 8：已于 2016/4/12 21:06:26 +08:00
+ 关闭了连接

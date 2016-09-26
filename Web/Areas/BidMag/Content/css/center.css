@@ -1,0 +1,207 @@
+﻿@charset "utf-8";
+
+.centerBox{ padding-bottom:10px; min-width:1024px;}
+.centTop{border-bottom:1px solid #BFBFBF; min-height:28px;clear:both;}
+.centTop .centNav li{ display: block; float: left;padding-right: 2px; font-family: "Microsoft YaHei";}
+.centTop .centNav li a{background: url(/Areas/BidMag/Content/images/slice/tagIco.png) repeat-x; border:1px solid #3071A9;display: block; padding:0px 15px; height:26px; line-height:26px;   color: #fff; font-size: 14px; font-weight: bold; border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.centTop .centNav li a:hover{background: url(/Areas/BidMag/Content/images/slice/tagIcoH1.png) repeat-x;border:1px solid #DEA15F; color: #21272d;border-bottom: 2px solid #fff;}
+.centTop .centNav li.on a{background: url(/Areas/BidMag/Content/images/slice/tagIcoH1.png) repeat-x;border:1px solid #DEA15F; color: #21272d;border-bottom: 2px solid #fff;}
+
+
+.centSeach{height:30px;line-height:30px; background: url(/Areas/BidMag/Content/images/slice/seachBn.png) repeat-x; border:1px solid #BDCCDF;}
+.centSeach .seachBox{ width:300px; height:20px; margin:4px; }
+.centSeach .seachBox .seachText{ height:20px; display:block;float:left;padding:0 5px; width:200px;background: url(/Areas/BidMag/Content/images/slice/seachBox.png) left no-repeat; border:0 none;}
+.centSeach .seachBox .seachBtn{cursor:pointer; border:0 none; height:20px; width:60px;padding:0; display:block; float:left; background: url(/Areas/BidMag/Content/images/slice/seachBox.png) right no-repeat;}
+.centSeach .seachBox .seachBtn:hover{background: url(/Areas/BidMag/Content/images/slice/seachBoxH.png) right no-repeat;}
+.centSeach .seachGroBtn{margin:4px; border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px; display:block; height:18px;padding:0 15px;line-height:18px; border:1px solid #BFBFBF;background: url(/Areas/BidMag/Content/images/slice/btnBn.png) repeat-x; cursor:pointer; color:#333;}
+.centSeach .seachGroBtn:hover{background: url(/Areas/BidMag/Content/images/slice/btnBnH.png) repeat-x; border:1px solid #BFBFBF;}
+.centSeach input.seachGroBtn{ height:20px;line-height:15px;}
+.centSeach .seachTit{padding-left:15px;}
+.centSeach .seachSele{ height:20px;margin:5px 0;display:block;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px; }
+.centSeach .cnvTit{padding:0 10px;color:#18457e;font-size:13px;}
+.centSeach .bdName{border-left:1px solid #BFBFBF;border-right:1px solid #BFBFBF; background-color:#fff;margin:0 2px; height:30px;padding:0 15px;line-height:30px;color:#577194;}
+.centSeach .bdName.on{background: url(/Areas/BidMag/Content/images/slice/tagIcoH.png) repeat-x; color:#1A3795;}
+
+.borderBot{border-bottom:0 none;}
+.centerCom{overflow: hidden;  border:1px solid #BFBFBF; border-top:0 none; clear: both;background-color: #fff; padding:5px 2px;}
+.borderTop{ border-top:1px solid #BFBFBF;}
+.centerCom .centBtn{  clear: both;overflow: hidden;}
+.centerCom .centBtn .btn{margin-left: 5px;}
+.centerCom table td .bar-group{ height:20px;width:280px;background: url(/Areas/BidMag/Content/images/slice/bar.png) no-repeat;}
+.centerCom table td .bar-group .bar{ width:20px;height:20px;display:block; float:left;padding-right:20px; background: url(/Areas/BidMag/Content/images/slice/barIco1.png) left no-repeat;}
+.centerCom table td .bar-group .bar:last-child{padding-right:0;}
+.centerCom table td .bar-group .bar-inverse{ background: url(/Areas/BidMag/Content/images/slice/barIco2.png) no-repeat;}
+
+/*.centerCom table td .bar-group .bar{display:block;float:left;background: url(/Areas/BidMag/Content/images/slice/barIco1.png) right no-repeat; width:44px;height:20px;}
+.centerCom table td .bar-group .bar:last-child{background:none;}
+.centerCom table td .bar-group .bar i{ width:20px;height:20px;display:block; float:left;background: url(/Areas/BidMag/Content/images/slice/barIco3.png) no-repeat;}
+.centerCom table td .bar-group .bar-inverse i{ width:20px;height:20px;display:block; float:left;background: url(/Areas/BidMag/Content/images/slice/barIco2.png) no-repeat;}*/
+.centerCom .tuoDoTab td ,.centerCom .tuoDoTab th{ position:relative;min-width:30px;vertical-align:middle;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.centerCom table td a{color: #116bc7; cursor:pointer; }
+.centerCom .tuoDoTab .noRows{display:block;left:0; position:absolute; top:6px;
+                         white-space:nowrap;text-overflow: ellipsis;overflow:hidden;-o-text-overflow: ellipsis;}
+.centerCom .tuoDoTab th .noRows{text-align:center;}
+.centerCom .tuoDoTab tr td{ border:0 none;}
+.centerCom .tuoDoTab{ border-bottom:1px solid #ddd;}
+.noSelectText
+{
+moz-user-select: -moz-none; 
+-moz-user-select: none; 
+-o-user-select:none; 
+-khtml-user-select:none; /* you could also put this in a class */ 
+-webkit-user-select:none;/* and add the CSS class here instead */ 
+-ms-user-select:none; 
+user-select:none;/**禁止选中文字*/ 
+}
+.centerCom .cTab th .noRows{ text-align:center;}
+.centerCom table td .btn{color:#116bc7;}
+.centerCom table td a:hover{color: #002a80;}
+.centerCom .table-bordered tr:hover{ background-color:#e3e8ec;}
+
+.tagCom{display: none;}
+.tagCom.on{display: block;}
+#tb_FileName{border:1px solid #ddd;}
+.centerCom .input.normal{border-radius: 5px; border:1px solid #ddd;}
+
+
+.centerCom .tenBox{ padding:10px;}
+.centerCom .tenBox .guideCLin{line-height: 25px; overflow: hidden;color: #464646; padding: 6px 0;*padding: 8px 0; border-bottom: 1px dashed #999;}
+.centerCom .tenBox .guideCLin a{ color: #464646; }
+.centerCom .tenBox .guideCLin a:hover{color: #046bd4;}
+.centerCom .tenBox .guideCLin .guAtit{ display: block; float: left;}
+.centerCom .tenBox .fileBox a{ padding-left: 10px;}
+.centerCom .tenBox .guideCLin .guDow{color: #046bd4;}
+.centerCom .tenBox .tenTit{ text-align:left; font-size:14px;font-family: "Microsoft YaHei";}
+.centerCom .tenBox .tenImg{ padding:10px; display:none;}
+/*项目管理 S*/
+.projectCom .othTab{border:0 none; margin-left:-2px;}
+.projectCom .othTab th{background-color:#E9F2FE; background-image:none; border:1px solid #A2B8DD;}
+.projectCom .table td,.projectCom .table th{padding: 0 4px;height: 20px;}
+.projectCom .othTab td,.projectCom .othTab th{padding: 4px;}
+.projectCom .table tr th{color: #464646;}
+.projectCom .table td{ padding-right: 12px; color:#52555a; }
+.projectCom .othTab td{border-bottom:1px dashed #A2B8DD;}
+.projectCom .table td .prjInput{ border:1px solid #C8D2DC; border-radius: 5px; width: 100%; overflow: hidden;}
+.projectCom .table td .prjTxt{ display: block; float: left;  width: 90%; cursor: pointer;}
+.projectCom .table .iEr{ margin-top: 5px; cursor: pointer; display: block; float: right;width: 22px; height: 19px; background: url(/Areas/BidMag/Content/images/slice/iEr.png) no-repeat;}
+.projectCom .table td select.prjInput{ height: 30px;}
+.projectCom .table td .pType{ width: 100%; clear: both;}
+.projectCom .table td .pType .pSp{ padding-right:10px;}
+.projectCom .table td .pType .pSp .prjTxt{ display:inline-block; width:auto;float:none;}
+.projectCom .table td .pType .pSp .prjInput{ display:inline-block; width:auto;float:none;}
+.projectCom .table td .pSText{ width: 100%; border-top:1px solid #C8D2DC;}
+.projectCom .table td .pSText .prjTxt{ width: 80%;}
+.projectCom .table td .pSText .prjInput{ width: 80%;}
+.projectCom .table .unitCom{position: relative;}
+.projectCom .table .unitCom .unitTxt{position: absolute;right: 0;top:5px;}
+.projectCom .cTab tr th{border-left: 1px solid #fff;color:#18457e;}
+.projectCom .cTab tr th:first-child{border-left: 1px solid #BDCCDF;}
+.projectCom .cTab tr th,.projectCom .cTab tr td{border-radius: 0; padding:4px;}
+.projectCom .tabBorder td{border-bottom:0 none;}
+
+.projectCom .prjRight{font-family: "Microsoft YaHei";background-color: #E9F2FE;height:100%; width: 250px; border:1px solid #A2B8DD; }
+.projectCom .prjRight .pRNav{width:100%;color:#944900;font-size:14px; background: url(/Areas/BidMag/Content/images/slice/rightTit.png) no-repeat; border-bottom:1px solid #A2B8DD; height:32px;line-height:32px;}
+.projectCom .prjRight .pRNav i{ display: block; float: left;padding:5px 8px;}
+.projectCom .prjRight .pRTit{margin:10px 10px;padding-top: 5px; border-top:1px dashed #999; clear:both;overflow:hidden; }
+.projectCom .prjRight .pRTit span{display:block;text-align: left; float: left;color: #2C343E; font-size:14px;}
+.projectCom .prjRight .pRTit a{color: #577194;padding-left: 5px; }
+.projectCom .prjRight .pRTit a.upIco{display:block; float:right;width:16px;height:16px;background: url(/Areas/BidMag/Content/images/slice/upIco.gif) no-repeat;}
+.projectCom .prjRight .pRTit a.dwIco{display:block; float:right;width:16px;height:16px;background: url(/Areas/BidMag/Content/images/slice/dwIco.gif) no-repeat;}
+.projectCom .prjRight .pRTit a.scIco{display:block; float:right;width:16px;height:16px;background: url(/Areas/BidMag/Content/images/slice/scIco.gif) no-repeat;}
+.projectCom .prjRight .pRTit a.deIco{display:block; float:right;width:16px;height:16px;background: url(/Areas/BidMag/Content/images/slice/deIco.gif) no-repeat;}
+.projectCom .prjRight .pRLin{padding: 0px 10px; clear:both; overflow:hidden;}
+.projectCom .prjRight .pRLin .pRTxt{padding: 5px 0; font-size:12px; clear:both;}
+.projectCom .prjRight .pRLin .pRTxt span{cursor: pointer;text-align: left;font-size:12px; display: block;float: left;color: #558dfe;}
+.projectCom .prjRight .pRLin .pRTxt a{color: #577194;padding-left: 5px;}
+/*公告模板 S*/
+.projectCom .bdC,.projectCom .bdAdvText{ background-color: #ECF1F6; margin-top: 10px;margin-bottom: 10px; border-radius:0px; border:1px solid #ddd; min-height: 450px;}
+.projectCom .bdAdvTip{background-color: #d4edf9;overflow: hidden;   border-radius: 5px;border:1px solid #ddd; }
+.projectCom .bdAdvCom .bdAdvFile{ padding: 10px; width: 70%;  color: #666;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTit{width: 60px;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTit i{ display: block; float: left; padding-top: 3px;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTit span{padding-left: 5px; font-size: 14px; font-weight: bold;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTxt{overflow:hidden; line-height: 20px; width: 300px;}
+.projectCom .bdAdvCom .bdAdvFile .bdAFTxt a{color: #116bc7;}
+.projectCom .bdAdvCom .AdvBtn{padding:0 10px; padding-top: 10px;}
+.projectCom .bdAdvCom .AdvBtn div{margin-bottom: 10px;}
+.projectCom .bdAdvCom .wordPage{color: #999; margin: 0 10px; height: 30px; line-height: 30px; border-bottom: 4px double #ddd;}
+.projectCom .bdAdvCom .wordFootPage{border:0 none; border-top:1px solid #ddd;}
+.projectCom .bdAdvCom .tTit{padding: 0 20px; padding-top: 10px; font-size: 20px; font-weight: bold;}
+.projectCom .bdAdvCom .fTit{font-size: 16px; color: #666;}
+.projectCom .bdAdvCom .advBox{padding:10px 20px; font-size: 14px;  line-height: 30px; overflow:hidden;}
+.projectCom .bdAdvCom .advBox .advTit{font-size: 16px; padding-top: 10px;color: #333;}
+.projectCom .bdAdvCom .advBox .advTxt{color: #666;}
+.projectCom .bdAdvCom .advBox .advTxt span{color: #333;}
+/*公告模板 E*/
+.projectCom .askList{ padding: 10px;}
+.projectCom .askList .askTxt{ width: 400px; line-height: 25px;color: #464646;}
+.projectCom .askBox{padding-right:2px;}
+
+.projectCom .table-bordered{margin-right:2px;}
+
+.finTab{ width: 100%;border-collapse: separate;border-spacing:0;border-bottom:1px solid #BDCCDF; border-left:1px solid #BDCCDF;}
+.finTab tr th,.finTab tr td{border-top:1px solid #BDCCDF; border-right:1px solid #BDCCDF;padding: 4px;}
+.finTab thead{background:url(/Areas/BidMag/Content/images/slice/tabBn.png) top repeat-x; background-color:#E9F4FE; border-bottom:1px solid #BDCCDF;}
+
+.table td{ color:#52555a;padding:8px 4px;}
+thead {display: table-header-group;
+vertical-align: middle;
+border-color: inherit;}
+
+.finTab tr td span{color: #666;}
+
+.projectCom .chEBtn{padding: 15px;}
+.FMnav{border:1px solid #ddd;height:25px;line-height:25px; border-left:0 none; width:100%; }
+.fmn{ border:0 none; width:250px;}
+.FMnav a{ border-left:1px solid #ddd; display:block; float:left; width:32%; text-align:center;  color:#333; margin-bottom:10px;}
+.FMnav a.on{ background-color:#2f7ccb; color:#fff;}
+.FMnav a.othOn{border:0 none; border-bottom:1px solid #ddd;}
+.FMnav a.on.othOn{ background-color:#fff; color:#f60; border-bottom:1px solid #2f7ccb;}
+.FMTab{ clear:both;}
+.finXxTab{width: 100%;border-collapse: separate;border-spacing:0; border-left:1px solid #666;border-bottom:1px solid #666;}
+.finXxTab td,.finXxTab th{ border-right:1px solid #666;border-top:1px solid #666;padding:8px; vertical-align:middle;}
+.finXxTab .fnxxTit{text-align:center;background-color:#deecfc; font-size:13px;color:#428bca;font-family: "Microsoft YaHei"; font-weight:bold;}
+.finXxTab .fnkTit{background-color:#deecfc; font-size:13px;color:#428bca;font-family: "Microsoft YaHei"; font-weight:bold;}
+.finXxTab .fnxxTit1{ border-top:1px solid #666;}
+/*项目管理 E*/
+/*统计分析 S*/
+.centerCom .chartBox{ margin: 15px;}
+.centerCom .chartBox .chartNav{font-size: 14px;font-weight: bold; height: 25px;line-height: 25px;background-color: #E5F2FE;color: #eb6100;}
+.centerCom .chartBox .chartTab{ width: 100%;margin: 15px auto;}
+.centerCom .chartBox .chartNav1{background-color: #C8D2DC;color: #555; }
+.centerCom .chartBox .chartCom{ width: 43%;}
+.centerCom .chartBox .chartCom.R{ width:57%;}
+.centerCom .chartBox .chartTxt{ height: 40px; line-height: 40px;color: #666;}
+.centerCom .chartBtn{padding-top: 15px;}
+.centerCom .chartBox .chartSeach{ clear: both;}
+.centerCom .chartBox .chartSeach .chartSelect{border:1px solid #ddd; margin-right: 10px; width: 100px;height: 25px; border-radius: 5px; display: block;}
+.centerCom .chartBox .chartSeach .chartTit{ display: block;padding-right: 5px;padding-top: 5px;}
+.centerCom .chartBox .chartSeach .chartText{display: block;margin-right: 10px; width: 100px; border:1px solid #ddd;border-radius: 5px; padding: 4px; height: 13px;}
+#ChartDic{ margin-left:15px; line-height:25px; border:1px solid #ddd;margin-top:15px;}
+#ChartDic div span{padding-left:5px; color:#f00;}
+#ChartDic div,#ChartDic h3{padding:5px 15px;}
+/*统计分析 E*/
+.centerBox .temTit{padding-bottom: 10px;padding-top:3px; font-size:16px; font-family: "Microsoft YaHei";font-weight:bold; text-align:center; color: #656d78;}
+.centerBox .temTit i{padding-left:250px;}
+/*.centerBox .temTit i{padding-right: 5px;margin-top: 3px; width: 16px;height: 16px;display: block;float: left; background: url(/Areas/BidMag/Content/images/slice/fIco1.png) no-repeat;}
+.centerBox .temTit i.open{background: url(/Areas/BidMag/Content/images/slice/fIco2.png) no-repeat;}*/
+.centerBox .temBtn{ width: 250px;padding-top: 10px;font-size:12px;font-weight:normal;  padding-right:10px;}
+.centerBox .temBtn .ylwCom{margin-left:10px;}
+.centerBox .temBtn .temSelect{ height: 25px;border-radius: 5px; width: 80px;border:1px solid #ddd;}
+.centerBox .temBtn .btn{margin-left: 15px;}
+
+.shenchaCom .table-bordered tr td{ border:1px solid #BDCCDF;}
+/*newStyle S*/
+.seachMoreCom{margin:10px 0; border:1px solid #ddd; height:30px; padding:10px; display:none;}
+ .chartCom .chartItem{margin:10px auto; margin-left: 20px; font-family: "Microsoft YaHei";  clear:both; width: 321px; height: 61px; background: url(/Areas/BidMag/Content/images/slice/sts.png) no-repeat;}
+ .chartCom .chartItem .charItemTit{ width: 125px; text-align: center; color: #fff;}
+ .chartCom .chartItem .charItemTit span{ display: block; padding-top: 10px; font-size: 16px; padding-left: 20px; padding-bottom: 5px;}
+ .chartCom .chartItem .chartItemTxt{ padding-top: 20px; width: 180px; font-size: 18px; text-align: center;}
+ .chartCom .chartItem .chartItemTxt span{color: #f60;}
+/*newStyle E*/
+#page1,#page2,#page3{padding-left:30px;}
+.laypage_prev{border-bottom-left-radius:4px;border-top-left-radius:4px;}
+.laypage_next{border-bottom-right-radius:4px; border-top-right-radius:4px;}
+.advBox .advTxt{padding:15px;}
+
+.ten_imgList input{cursor:pointer;}

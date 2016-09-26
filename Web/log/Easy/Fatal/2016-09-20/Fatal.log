@@ -1,0 +1,433 @@
+[2016-09-20 10:21:26.718] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.759] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[SysRealName] AS [SysRealName], 
+    [Extent1].[Password] AS [Password], 
+    [Extent1].[IsSuperManager] AS [IsSuperManager], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_User] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'陈亢龙' = [Extent1].[SysRealName])
+[2016-09-20 10:21:26.759] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.760] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.760] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.760] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.762] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.763] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.766] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.768] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.769] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[SysRealName] AS [SysRealName], 
+    [Extent1].[Password] AS [Password], 
+    [Extent1].[IsSuperManager] AS [IsSuperManager], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_User] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'陈亢龙' = [Extent1].[SysRealName])
+[2016-09-20 10:21:26.769] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.769] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.770] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.770] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.771] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.772] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.772] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.776] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.783] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[companyName] AS [companyName], 
+    [Extent1].[sort] AS [sort], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_Company] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'龙骋' = [Extent1].[companyName])
+[2016-09-20 10:21:26.783] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.783] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.783] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.784] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.786] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.786] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.788] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.789] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.790] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[companyName] AS [companyName], 
+    [Extent1].[sort] AS [sort], 
+    [Extent1].[ParentId] AS [ParentId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_Company] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'龙骋' = [Extent1].[companyName])
+[2016-09-20 10:21:26.804] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.804] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.805] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.805] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.806] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.806] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.807] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.809] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.814] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DepartName] AS [DepartName], 
+    [Extent1].[sort] AS [sort], 
+    [Extent1].[Sys_CompanyId] AS [Sys_CompanyId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_Depart] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'管理维护部门' = [Extent1].[DepartName])
+[2016-09-20 10:21:26.815] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.815] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.815] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.815] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.817] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.817] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.819] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.819] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.821] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[DepartName] AS [DepartName], 
+    [Extent1].[sort] AS [sort], 
+    [Extent1].[Sys_CompanyId] AS [Sys_CompanyId], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_Depart] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'管理维护部门' = [Extent1].[DepartName])
+[2016-09-20 10:21:26.821] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.821] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.821] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.822] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.823] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.823] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.823] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.826] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.831] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[GroupName] AS [GroupName], 
+    [Extent1].[SysDepartId] AS [SysDepartId], 
+    [Extent1].[sort] AS [sort], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_Group] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'维护一组' = [Extent1].[GroupName])
+[2016-09-20 10:21:26.831] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.832] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.832] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.832] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.833] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.834] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.836] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.836] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.838] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[GroupName] AS [GroupName], 
+    [Extent1].[SysDepartId] AS [SysDepartId], 
+    [Extent1].[sort] AS [sort], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_Group] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (N'维护一组' = [Extent1].[GroupName])
+[2016-09-20 10:21:26.838] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.838] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.838] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.838] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.840] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.840] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.840] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.842] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.849] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[ButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (0 = [Extent1].[IsDeleted]) AND (1 = [Extent1].[BtnType])
+[2016-09-20 10:21:26.849] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.849] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.850] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.850] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.852] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.852] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.855] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.855] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.856] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[BtnName] AS [BtnName], 
+    [Extent1].[BtnUri] AS [BtnUri], 
+    [Extent1].[BtnClass] AS [BtnClass], 
+    [Extent1].[BtnIco] AS [BtnIco], 
+    [Extent1].[BtnType] AS [BtnType], 
+    [Extent1].[Sort] AS [Sort], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[ButtonDics] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND (0 = [Extent1].[IsDeleted]) AND (0 = [Extent1].[BtnType])
+[2016-09-20 10:21:26.857] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.857] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'False' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.857] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.857] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.859] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.859] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.859] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.865] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.866] Easy.Framework.Data.EF.DbContextBase 10：Started transaction at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.869] Easy.Framework.Data.EF.DbContextBase 10：UPDATE [dbo].[Sys_Company]
+SET [AddUserId] = @0, [AddDate] = @1, [LastDate] = @2
+WHERE (([Id] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Sys_Company]
+WHERE @@ROWCOUNT > 0 AND [Id] = @3
+[2016-09-20 10:21:26.869] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.869] Easy.Framework.Data.EF.DbContextBase 10：-- @0: 'bf21310f-accb-42ee-ba50-48cd917423e3' (Type = String, Size = 50)
+
+[2016-09-20 10:21:26.870] Easy.Framework.Data.EF.DbContextBase 10：-- @1: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.870] Easy.Framework.Data.EF.DbContextBase 10：-- @2: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.870] Easy.Framework.Data.EF.DbContextBase 10：-- @3: '889e3497-5268-4b76-a03d-a685010eb73c' (Type = Guid)
+
+[2016-09-20 10:21:26.870] Easy.Framework.Data.EF.DbContextBase 10：-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+
+[2016-09-20 10:21:26.870] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.885] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 14 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.886] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.886] Easy.Framework.Data.EF.DbContextBase 10：UPDATE [dbo].[Sys_Depart]
+SET [AddUserId] = @0, [AddDate] = @1, [LastDate] = @2
+WHERE (([Id] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Sys_Depart]
+WHERE @@ROWCOUNT > 0 AND [Id] = @3
+[2016-09-20 10:21:26.886] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.886] Easy.Framework.Data.EF.DbContextBase 10：-- @0: 'bf21310f-accb-42ee-ba50-48cd917423e3' (Type = String, Size = 50)
+
+[2016-09-20 10:21:26.887] Easy.Framework.Data.EF.DbContextBase 10：-- @1: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.887] Easy.Framework.Data.EF.DbContextBase 10：-- @2: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.887] Easy.Framework.Data.EF.DbContextBase 10：-- @3: '24079255-2a5b-4029-80d4-a6850111f93e' (Type = Guid)
+
+[2016-09-20 10:21:26.887] Easy.Framework.Data.EF.DbContextBase 10：-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+
+[2016-09-20 10:21:26.887] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.889] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.890] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.890] Easy.Framework.Data.EF.DbContextBase 10：UPDATE [dbo].[Sys_Group]
+SET [AddUserId] = @0, [AddDate] = @1, [LastDate] = @2
+WHERE (([Id] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Sys_Group]
+WHERE @@ROWCOUNT > 0 AND [Id] = @3
+[2016-09-20 10:21:26.890] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.890] Easy.Framework.Data.EF.DbContextBase 10：-- @0: 'bf21310f-accb-42ee-ba50-48cd917423e3' (Type = String, Size = 50)
+
+[2016-09-20 10:21:26.891] Easy.Framework.Data.EF.DbContextBase 10：-- @1: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.891] Easy.Framework.Data.EF.DbContextBase 10：-- @2: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.891] Easy.Framework.Data.EF.DbContextBase 10：-- @3: '6a657988-cf9e-469d-a6e6-a68501186427' (Type = Guid)
+
+[2016-09-20 10:21:26.891] Easy.Framework.Data.EF.DbContextBase 10：-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+
+[2016-09-20 10:21:26.891] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.893] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.893] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.894] Easy.Framework.Data.EF.DbContextBase 10：UPDATE [dbo].[Sys_User]
+SET [AddUserId] = @0, [AddDate] = @1, [LastDate] = @2
+WHERE (([Id] = @3) AND ([Timestamp] = @4))
+SELECT [Timestamp]
+FROM [dbo].[Sys_User]
+WHERE @@ROWCOUNT > 0 AND [Id] = @3
+[2016-09-20 10:21:26.894] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.894] Easy.Framework.Data.EF.DbContextBase 10：-- @0: 'bf21310f-accb-42ee-ba50-48cd917423e3' (Type = String, Size = 50)
+
+[2016-09-20 10:21:26.894] Easy.Framework.Data.EF.DbContextBase 10：-- @1: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.895] Easy.Framework.Data.EF.DbContextBase 10：-- @2: '2016/9/20 10:21:26' (Type = DateTime2)
+
+[2016-09-20 10:21:26.895] Easy.Framework.Data.EF.DbContextBase 10：-- @3: 'a34f82ed-519d-402f-bb55-a67d00b66834' (Type = Guid)
+
+[2016-09-20 10:21:26.895] Easy.Framework.Data.EF.DbContextBase 10：-- @4: 'System.Byte[]' (Type = Binary, Size = 8)
+
+[2016-09-20 10:21:26.895] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.897] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 1 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.897] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.900] Easy.Framework.Data.EF.DbContextBase 10：Committed transaction at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.900] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.903] Easy.Framework.Data.EF.DbContextBase 10：Opened connection at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.905] Easy.Framework.Data.EF.DbContextBase 10：SELECT TOP (1) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[SysRealName] AS [SysRealName], 
+    [Extent1].[Password] AS [Password], 
+    [Extent1].[IsSuperManager] AS [IsSuperManager], 
+    [Extent1].[AddUserId] AS [AddUserId], 
+    [Extent1].[LastUserId] AS [LastUserId], 
+    [Extent1].[AddDate] AS [AddDate], 
+    [Extent1].[LastDate] AS [LastDate], 
+    [Extent1].[IsDeleted] AS [IsDeleted], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Sys_User] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_1) OR (@DynamicFilterParam_2 IS NOT NULL)) AND ([Extent1].[SysRealName] = @p__linq__0) AND (([Extent1].[Password] = @p__linq__1) OR (([Extent1].[Password] IS NULL) AND (@p__linq__1 IS NULL)))
+[2016-09-20 10:21:26.905] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.905] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_1: 'null' (Type = Boolean, IsNullable = false)
+
+[2016-09-20 10:21:26.905] Easy.Framework.Data.EF.DbContextBase 10：-- DynamicFilterParam_2: 'null' (Type = Boolean)
+
+[2016-09-20 10:21:26.905] Easy.Framework.Data.EF.DbContextBase 10：-- p__linq__0: '陈亢龙' (Type = String, Size = 4000)
+
+[2016-09-20 10:21:26.906] Easy.Framework.Data.EF.DbContextBase 10：-- p__linq__1: '666666' (Type = String, Size = 4000)
+
+[2016-09-20 10:21:26.906] Easy.Framework.Data.EF.DbContextBase 10：-- Executing at 2016/9/20 10:21:26 +08:00
+
+[2016-09-20 10:21:26.918] Easy.Framework.Data.EF.DbContextBase 10：-- Completed in 12 ms with result: SqlDataReader
+
+[2016-09-20 10:21:26.918] Easy.Framework.Data.EF.DbContextBase 10：
+
+[2016-09-20 10:21:26.919] Easy.Framework.Data.EF.DbContextBase 10：Closed connection at 2016/9/20 10:21:26 +08:00
+

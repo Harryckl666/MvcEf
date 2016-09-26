@@ -1,0 +1,12 @@
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\SqlToModel.dll.config
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\SqlToModel.dll
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\SqlToModel.pdb
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\EntityFramework.dll
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\EntityFramework.xml
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\obj\Debug\SqlToModel.csprojResolveAssemblyReference.cache
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\obj\Debug\SqlToModel.dll
+D:\我的文档\Visual Studio 2013\Projects\MVCEF\SqlToModel\obj\Debug\SqlToModel.pdb
